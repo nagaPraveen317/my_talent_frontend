@@ -1,0 +1,97 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87); /* Changed to dark text on white background */
+  background-color: #ffffff; /* Changed to white background */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-size: .8em;
+  color: #007bff; /* Blue accent color */
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f8f9fa; /* Light gray background for body */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  margin: 0;
+  padding: 2em;
+  min-width: 400px;
+  max-width: 700px;
+  background-color: #ffffff; /* White background for content */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #007bff; /* Blue accent color */
+  text-align: center; /* Centered title */
+}
+
+h2 {
+  margin-bottom: 5px;
+  color: #28a745; /* Light green accent color */
+}
+
+h3 {
+  margin: 0px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid #007bff; /* Blue border */
+  padding: 0.3em .6em;
+  font-size: .8em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #007bff; /* Blue background */
+  color: #ffffff; /* White text */
+  cursor: pointer;
+  transition: border-color 0.25s, background-color 0.25s;
+}
+
+button:hover {
+  border-color: #0056b3; /* Darker blue border on hover */
+  background-color: #0056b3; /* Darker blue background on hover */
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #0056b3; /* Darker blue on hover */
+  }
+
+  button {
+    background-color: #007bff; /* Blue background */
+    border-color: #007bff; /* Blue border */
+  }
+}

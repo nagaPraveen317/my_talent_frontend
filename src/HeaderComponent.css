@@ -1,0 +1,11 @@
+button{
+    font-size: .8em;
+}
+.header{
+    background-color:lightblue;
+    padding: 5px;
+    border: 1px solid rgb(148, 192, 207);
+}
+.title{
+    font-size: 24px;
+}

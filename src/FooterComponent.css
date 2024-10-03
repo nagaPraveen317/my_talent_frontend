@@ -1,0 +1,14 @@
+button{
+    font-size: .8em;
+}
+.footer{
+    background-color:lightblue;
+    padding: 5px;
+    border: 1px solid rgb(148, 192, 207);
+    text-align: left;
+}
+
+.footer span{
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+}
